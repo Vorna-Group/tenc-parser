@@ -1,0 +1,49 @@
+{
+  "name": "@vorna-group/tencparser",
+  "version": "0.1.0",
+  "description": "TENC (Token Efficient Nested Codec) parser, validator, repair, and converters.",
+  "keywords": [
+    "tenc",
+    "parser",
+    "codec",
+    "markup",
+    "html",
+    "ast",
+    "validation"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc -p tsconfig.json && node ./scripts/build-cjs.js",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "parse5": "^7.1.2"
+  }
+}
+
+
