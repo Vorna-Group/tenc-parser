@@ -2,45 +2,129 @@ TENCparser Source-Available License
 
 Copyright (c) 2025 Vorna Group LLC
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this
-software and associated documentation files (the “Software”), to use, copy, modify,
-and distribute the Software, subject to the following conditions:
+Permission is granted, free of charge, to any person obtaining a copy of this
+software and associated documentation files (the “Software”), to use, copy,
+modify, and distribute the Software subject to the terms below.
 
-1. Revenue Threshold
-   You may use the Software free of charge if your, or your employing entity’s,
-   annual gross revenue is less than USD $150,000 for the most recently completed
-   fiscal year. If your or your employing entity’s annual gross revenue is
-   USD $150,000 or greater, you must obtain a commercial license from Vorna Group LLC
-   before using the Software in production or for commercial purposes.
+This is a source-available license, not an open-source license.
 
-2. Contact for Commercial License
-   To obtain a commercial license, contact: legal@vornagroup.com
+1. Revenue Threshold (Free Use Tier)
 
-3. Non-Commercial Use
-   Non-commercial use is permitted regardless of revenue. If your use transitions
-   to commercial use and your annual gross revenue meets or exceeds the threshold
-   in Section 1, you must obtain a commercial license prior to continued use.
+- You may use the Software without charge if your total annual gross revenue
+  (or your employing entity’s) for the most recently completed fiscal year is
+  less than USD $150,000. This includes individuals, hobbyists, students,
+  open-source projects, small businesses, academic research, personal tools,
+  and nonprofits below the threshold.
+- If your annual gross revenue is USD $150,000 or more, you must obtain a paid
+  commercial license from Vorna Group LLC before using the Software in any
+  production system, internal business context, commercial product,
+  revenue‑associated environment, hosted/automated pipeline, or service
+  delivered to third parties.
 
-4. Attribution
-   You must retain all copyright notices in all copies or substantial portions of
-   the Software and include a copy of this license in any distribution.
+2. Definition of Commercial Use
 
-5. No Warranty
-   THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-   SOFTWARE.
+“Commercial Use” means any use by or for a business entity, organization,
+government entity, a nonprofit meeting or exceeding the Revenue Threshold, or
+an individual engaged in revenue‑generating activity. Commercial Use explicitly
+includes:
+  a) internal business tools and infrastructure;
+  b) research, prototyping, or R&D by an entity over the Revenue Threshold;
+  c) free products monetized by ads, sponsorships, data, or upsells;
+  d) SaaS applications, hosted tools, or cloud services;
+  e) consulting, outsourcing, or managed services;
+  f) usage by nonprofits whose revenue meets the threshold.
 
-6. Definitions
-   For the purposes of this license, “you” and “your” refer to an individual or
-   legal entity exercising permissions granted by this license. “Gross revenue”
-   means total revenue recognized in accordance with applicable accounting
-   standards, exclusive of taxes collected and remitted to taxing authorities.
+Noncommercial Use does not include any of the above.
 
-Any use of the Software in violation of this license terminates your rights under this
-license automatically and immediately.
+3. SaaS / Hosted / API Restriction
 
+You may not provide the Software, or any modified version of it, as a public
+hosted service, a public cloud service, a public SaaS platform, or any form of
+public API (REST, GraphQL, RPC, CLI‑over‑HTTP, etc.) unless you obtain a paid
+commercial license.
 
+Examples of restricted public use:
+- “TENCparser‑as‑a‑Service”
+- public parsing/validation APIs
+- cloud‑based conversion tools
+- any public endpoints where external users submit data
+- embedding into a hosted platform as a feature for end users
+- using the Software as a backend for a service processing third‑party data
+
+3.1 Internal Use Exception (Below Revenue Threshold)
+
+The restriction in Section 3 does not apply to purely internal, non‑public,
+non‑customer‑facing use by organizations below the Revenue Threshold. Internal
+use means employees or contractors of the same organization accessing the
+Software through internal tooling, servers, or private APIs, not exposed to
+clients, customers, external users, or the public. Internal use remains fully
+subject to all other terms of this License.
+
+3.2 Commercial Use Above Revenue Threshold
+
+If your organization’s annual revenue is USD $150,000 or more, you must obtain
+a commercial license before deploying the Software in internal hosted services,
+exposing it through internal/private/public APIs, integrating it into hosted
+or cloud products, or using it in pipelines that serve paying customers
+(directly or indirectly).
+
+3.3 No Redistribution as a Service
+
+Regardless of revenue, you may not resell, wrap, embed, or bundle the Software
+as a service; integrate it as a feature of a hosted platform; provide it as a
+cloud tool where third parties submit data; or sublicense/rebundle the
+Software in any way, without a commercial license.
+
+4. Distribution of Modified Versions
+
+You may modify the Software, but:
+- any distributed modified or derivative version must retain this License in full;
+- you may not relicense under MIT, Apache, GPL, or any OSI license;
+- you may not remove, change, or replace this licensing text.
+
+Modification does not permit: relicensing, dual‑licensing, stripping
+restrictions, or converting it into another library under different terms.
+
+5. Definition of Derivative Works
+
+A “Derivative Work” includes: any modification or adaptation of the Software;
+reimplementations informed by Software design, structure, or output; clean‑room
+reimplementations influenced by behavior or documentation; translations or
+ports; or code using the Software’s structure as its basis.
+
+All Derivative Works must be distributed only under this License.
+
+6. Revenue Verification
+
+Upon written request, you must provide documentation verifying your annual
+gross revenue solely for confirming compliance. Requests must be infrequent,
+reasonable, and narrowly scoped to revenue verification only.
+
+7. Termination
+
+All rights granted by this License terminate immediately if you:
+  a) exceed the Revenue Threshold without obtaining a commercial license;
+  b) violate any restriction in Sections 2–6;
+  c) distribute the Software improperly; or
+  d) offer it as a hosted/cloud/SaaS/API service in violation of Section 3.
+
+Rights may be restored only if you correct the violation and obtain written
+reinstatement from Vorna Group LLC.
+
+8. Attribution
+
+All copies (modified or unmodified) must include this License text in full and
+all copyright notices.
+
+9. No Warranty
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+DAMAGES, LIABILITIES, OR CLAIMS ARISING FROM THE SOFTWARE OR ITS USE.
+
+10. Definitions
+
+“You”: Any individual or legal entity exercising rights under this License.
+
+“Gross revenue”: Total annual revenue under applicable accounting standards
+(taxes excluded).

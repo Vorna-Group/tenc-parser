@@ -43,7 +43,14 @@
   },
   "dependencies": {
     "parse5": "^7.1.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vorna-Group/tenc-parser.git"
+  },
+  "author": "Felix Orlov & Nick Medved",
+  "bugs": {
+    "url": "https://github.com/Vorna-Group/tenc-parser/issues"
+  },
+  "homepage": "https://github.com/Vorna-Group/tenc-parser#readme"
 }
-
-
