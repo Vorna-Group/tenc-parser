@@ -6,7 +6,7 @@ TENCparser — reference-quality utilities for TENC (Token Efficient Nested Code
 - Validate AST and source (escaping, primary rules, dictionaries)
 - Repair near‑valid TENC strings
 - Convert TENC → HTML (string serializer)
-- Convert HTML → TENC (browser‑only)
+- Convert HTML → TENC
 
 Released by Vorna Group LLC. Conceived and implemented by Felix Orlov and Nick Medved.
 
@@ -67,7 +67,7 @@ Works in browsers (DOMParser) and in Node.js (built‑in parse5).
 - `fixTenc(input: string, opts?): { fixed: boolean; string: string }`
 - `astToHtml(ast: TencNode[], opts?): string` (low-level)
 - `convertTencToHtml(src: string, opts?): string`
-- `convertHtmlToTenc(input: string|Element|Document|DocumentFragment, opts?): string` (browser)
+- `convertHtmlToTenc(input: string|Element|Document|DocumentFragment, opts?): string`
 - `defaultPrimaryMap`, `createPrimaryMap(override)`
 - `indexToLineCol(input, index)`
 
