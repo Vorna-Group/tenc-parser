@@ -8,7 +8,7 @@ TENCparser — reference-quality utilities for TENC (Token Efficient Nested Code
 - Convert TENC → HTML (string serializer)
 - Convert HTML → TENC
 
-[TENC Documentation](https://github.com/Vorna-Group/tenc-parser)
+[TENC Documentation](https://github.com/Vorna-Group/TENC)
 
 Released by Vorna Group LLC. Conceived and implemented by Felix Orlov and Nick Medved.
 
