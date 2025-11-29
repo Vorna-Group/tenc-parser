@@ -1,6 +1,6 @@
 {
   "name": "@vorna-group/tencparser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "TENC (Token Efficient Nested Codec) parser, validator, repair, and converters.",
   "keywords": [
     "tenc",
