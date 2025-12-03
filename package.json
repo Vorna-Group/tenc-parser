@@ -1,6 +1,6 @@
 {
   "name": "@vorna-group/tencparser",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "TENC (Token Efficient Nested Codec) parser, validator, repair, and converters.",
   "keywords": [
     "tenc",
@@ -42,7 +42,7 @@
     "typescript": "^5.6.3"
   },
   "dependencies": {
-    "parse5": "^7.1.2"
+    "parse5": "^8.0.0"
   },
   "repository": {
     "type": "git",

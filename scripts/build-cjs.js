@@ -29,4 +29,3 @@ function makeCjsEntry() {
 mkdirSync(distDir, { recursive: true });
 makeCjsEntry();
 
-
