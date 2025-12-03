@@ -1,6 +1,6 @@
 {
   "name": "@vorna-group/tencparser",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "TENC (Token Efficient Nested Codec) parser, validator, repair, and converters.",
   "keywords": [
     "tenc",
@@ -34,7 +34,7 @@
   },
   "scripts": {
     "clean": "rimraf dist",
-    "build": "npm run clean && tsc -p tsconfig.json && node ./scripts/build-cjs.js",
+    "build": "npm run clean && tsc -p tsconfig.json && tsc -p tsconfig.cjs.json && node ./scripts/build-cjs.js",
     "prepare": "npm run build"
   },
   "devDependencies": {
